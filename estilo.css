@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Geostar+Fill&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    background: linear-gradient(180deg, #0B0001 18.23%, #0B0001 38.3%, #0B0007 53%, #1A1415 68.32%, rgba(255, 0, 229, 0.984321) 99.14%, rgba(255, 0, 229, 0.973958) 99.15%, rgba(255, 0, 229, 0) 99.16%, rgba(255, 0, 229, 0.897247) 99.17%, rgba(255, 0, 229, 0.240754) 99.99%, rgba(255, 0, 229, 0.774509) 100%);
+}
+
+#cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+
+#cabecalho-menu2 {
+    color: rgb(84, 4, 131);
+    font-weight: 400;
+    font-size: 17px;
+}
+
+#logo{
+    height: 80px;
+    margin-left: 0px;
+}
+
+#cabecalho-menu {
+    height: 20px;
+    display: flex;
+    gap: 25px;
+    margin-left: 500px;
+}
+
+#intro-pag {
+    text-align: center;
+    justify-content: space-around;
+    border-top: 0.4px solid rgb(84, 4, 131);
+    color:white;
+}
+
+#titulo {
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 48px;
+    margin-bottom: 22px;
+    font-size: 30px;
+    font-family: 'Geostar Fill', serif;
+    color:white;
+}
+
+#intro-texto {
+    text-align: center;
+    padding-top: 10px;
+    margin-right: 60px;
+    margin-left: 60px;
+    font-size: 16px;
+    color:white;
+}
+
+#titulo-lista {
+    font-family: 'Geostar Fill', serif;
+    font-size: 20px;
+    padding-top: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 85px;
+    color:white;
+}
+
+#lista {
+    margin-left: 400px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    list-style: none;
+    color: white;
+}
+
+li {
+    list-style: none;
+    color: white;
+}
+
+#conteudo{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+#titulo-space {
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 48px;
+    margin-bottom: 22px;
+    font-size: 20px;
+    font-family: 'Geostar Fill', serif;
+    color:white;
+}
+
+#titulo-pac {
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 48px;
+    margin-bottom: 22px;
+    font-size: 20px;
+    font-family: 'Geostar Fill', serif;
+    color:white;
+}
+
+#titulo-dk {
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 48px;
+    margin-bottom: 22px;
+    font-size: 20px;
+    font-family: 'Geostar Fill', serif;
+    color:white;
+}
+
+#titulo-mario {
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 48px;
+    margin-bottom: 22px;
+    font-size: 20px;
+    font-family: 'Geostar Fill', serif;
+    color:white;
+}
+
+#conteudo-texto {
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: justify;
+    margin-left: 210px;
+    margin-right: 130px;
+}
+
+#conteudo-imagem{
+    width: 650px;
+    padding-top: 50px;
+    margin: auto;
+    display: block;
+}
+
+footer {
+    margin-top: 48px;
+    margin-bottom: 30px;
+    border-top: 0.4px solid white;
+    width: 1519px;
+}
+
+#footer-texto {
+    font-size: 16px;
+    padding-top: 25px;
+    padding-left: 20px;
+    color: white;
+}
